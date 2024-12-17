@@ -17,6 +17,7 @@ case 3:
 break;
  default:
  printf("opcao invalida \n");
+break;
 }
 }
 
