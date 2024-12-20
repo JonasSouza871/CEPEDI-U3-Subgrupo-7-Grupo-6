@@ -26,12 +26,12 @@ switch (opcao){
     CV = potencia/735.5;
     HP = potencia/745.7;
 
-    printf("O Valor é: %.2f KW\n", KW);
-    printf("O Valor é: %.2f CV\n", CV);
-    printf("O Valor é: %.2f HP\n", HP);
+    printf("O Valor da potência convertida é: %.2fKW.\n", KW);
+    printf("O Valor da potência convertida é: %.2fCV.\n", CV);
+    printf("O Valor da potência convertida é: %.2fHP.\n", HP);
 
     break;
-    
+
     case 2:
     
     printf("Digite o valor da potencia em KW.\n");
@@ -41,10 +41,10 @@ switch (opcao){
     CV = W/735.5;
     HP = W/745.7;
 
-    printf("O Valor é: %.2f W\n", W);
-    printf("O Valor é: %.2f CV\n", CV);
-    printf("O Valor é: %.2f HP\n", HP);
-    
+    printf("O Valor da potência convertida é %.2f W.\n", W);
+    printf("O Valor da potência convertida é %.2f CV.\n", CV);
+    printf("O Valor da potência convertida é %.2f HP.\n", HP);
+
     break;
 
     case 3:
@@ -56,12 +56,13 @@ switch (opcao){
     KW = W/1000;
     HP = W/745.7;
 
-    printf("O Valor é: %.2f W\n", W);
-    printf("O Valor é: %.2f KW\n", KW);
-    printf("O Valor é: %.2f HP\n", HP);
+    printf("O valor da potência convertida é: %.2fW.\n", W);
+    printf("O valor da potência convertida é: %.2fKW.\n", KW);
+    printf("O valor da potência convertida é: %.2fHP.\n", HP);
 
     break;
-case 4:
+
+    case 4:
     
     printf("Digite o valor da potencia em HP.\n");
     scanf("%f", &potencia);
@@ -70,9 +71,10 @@ case 4:
     KW = W/1000;
     CV = W/735.5;
 
-    printf("O Valor é: %.2f W\n", W);
-    printf("O Valor é: %.2f KW\n", KW);
-    printf("O Valor é: %.2f CV\n", CV);
+    printf("O valor da potência convertida é: %.2f W.\n", W);
+    printf("O valor da potência convertida é: %.2f KW.\n", KW);
+    printf("O valor da potência convertida é: %.2f CV.\n", CV);
+
 
     break;
 
