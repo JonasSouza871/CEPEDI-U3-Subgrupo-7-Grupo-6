@@ -3,7 +3,7 @@
 void conversor_potencia(){
 
 int opcao;
-float potencia, KW, CV, HP;
+float potencia, KW, CV, HP, W;
 
 system("chcp 65001>nul"); 
 
@@ -31,6 +31,19 @@ switch (opcao){
     printf("O Valor é: %.2f HP\n", HP);
 
     break;
+    
+    case 2:
+    
+    printf("Digite o valor da potencia em KW.\n");
+    scanf("%f", &potencia);
+
+    W = potencia*1000;
+    CV = W/735,5;
+    HP = W/745,7;
+
+    printf("O Valor é: %.2f W\n", W);
+    printf("O Valor é: %.2f CV\n", CV);
+    printf("O Valor é: %.2f HP\n", HP);
 
 default:
     break;
