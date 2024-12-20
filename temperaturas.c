@@ -39,7 +39,3 @@ void conversor_temperaturas(){
         break;
     }
 }
-
-int main() {
-    conversor_temperaturas();
-}
