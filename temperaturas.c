@@ -25,13 +25,34 @@ void conversor_temperaturas(){
         break;
 
     case 2:
-        printf("\n------------- Conversor Celsius para Kelvin ------------\n");
         printf("Digite a temperatura correspondente em Celsius: ");
         scanf("%f", &temperatura);
 
         resultado = temperatura + 273;
 
         printf("\n%.2f Celsius equivalem a %.2f Kelvin.", temperatura, resultado);
+        break;
+
+    case 3:
+        printf("Digite a temperatura correspondente em Fahrenheit: ");
+        scanf("%f", &temperatura);
+
+        resultado = (temperatura - 32) / 1.8;
+
+        printf("\n%.2f Fahrenheit equivalem a %.2f Celsius.", temperatura, resultado);
+        break;
+
+    case 4:
+        printf("Digite a temperatura correspondente em Fahrenheit: ");
+        scanf("%f", &temperatura);
+
+        resultado = (temperatura - 32) * 5 / 9 + 273,15;
+
+        printf("\n%.2f Fahrenheit equivalem a %.2f Celsius.", temperatura, resultado);
+        break;
+    case 5:
+        break;
+    case 6:
         break;
     
     default:
