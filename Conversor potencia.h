@@ -1,11 +1,11 @@
 #include<stdio.h>
 
-void conversor_potencia(){
+void conversor_potencia() {
 
 int opcao;
 float potencia, KW, CV, HP, W;
 
-system("chcp 65001>nul"); 
+system("chcp 65001>nul");
 
 printf("\n ------------------ Conversor de Potencias -----------------------\n");
 printf("Escolha a base que você quer iniciar a conversão.\n");
@@ -85,7 +85,14 @@ switch (opcao){
     break;
 
     }
-    return 0;
+    
+}
+
+int main(){
+
+conversor_potencia();
+return 0;
+
 }
 
    

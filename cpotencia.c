@@ -1,8 +1,7 @@
 #include<stdio.h>
 
-
 void conversor_potencia() {
-   
+
 int opcao;
 float potencia, KW, CV, HP, W;
 
@@ -32,6 +31,8 @@ switch (opcao){
     printf("O Valor da potência convertida é: %.2fHP.\n", HP);
 
     break;
+
+
 
     case 2:
     
@@ -88,8 +89,6 @@ printf("Opção Inválida. Por favor, tente novamente. \n");
 }
 
 int main() {
-
     conversor_potencia();
-
-    return 0;
+    return 0;          
 }
