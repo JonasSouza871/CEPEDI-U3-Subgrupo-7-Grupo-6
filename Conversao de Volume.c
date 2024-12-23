@@ -22,7 +22,7 @@ void ConverterVolume() {
             MetroCubico = Medida / 1000;
 
             printf("Convertido em Mililitros: %.2f mL\n", Mililitro);
-            printf("Convertido em Metros cubicos: %.6f m³\n", MetroCubico);
+            printf("Convertido em Metros cubicos: %.6f m3\n", MetroCubico);
 
             break;
 
@@ -35,7 +35,7 @@ void ConverterVolume() {
             MetroCubico = Litro / 1000;
 
             printf("Convertido em Litros: %.2f L\n", Litro);
-            printf("Convertido em Metros cubicos: %.6f m³\n", MetroCubico);
+            printf("Convertido em Metros cubicos: %.6f m3\n", MetroCubico);
 
             break;
 
