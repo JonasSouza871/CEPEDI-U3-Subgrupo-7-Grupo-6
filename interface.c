@@ -11,47 +11,42 @@ int main() {
 
     do {
         printf("\n=== MENU DE CONVERSAO ===\n");
-        printf("1 - Converter Altura\n");
-        printf("2 - Converter Bits\n");
-        printf("3 - Converter Volume\n");
-        printf("4 - Converter Unidades de Potencia\n");
-        printf("5 - Converter Unidades de Tempo\n");
-        printf("6 - Converter Temperatura\n");
-        printf("7 - Converter Comprimento\n");
-        printf("8 - Sair\n");
+        printf("1 - Converter Bits\n");
+        printf("2 - Converter Volume\n");
+        printf("3 - Converter Unidades de Potencia\n");
+        printf("4 - Converter Unidades de Tempo\n");
+        printf("5 - Converter Temperatura\n");
+        printf("6 - Converter Comprimento\n");
+        printf("7 - Sair\n");
         printf("Escolha uma opcao: ");
         scanf("%d", &opcao);
 
         switch(opcao) {
             case 1:
-            //    ConverterAltura(); 
-                break;
-
-            case 2:
                 converterBytes();
                 break;
 
-            case 3:
+            case 2:
                 ConverterVolume();
                 break;
 
-            case 4:
+            case 3:
                 conversor_potencia();
                 break;
 
-            case 5:
+            case 4:
                 conversor_min();
                 break;
 
-            case 6:
+            case 5:
                 conversor_temperaturas();
                 break;
 
-            case 7:
+            case 6:
                 ConverterComprimento();
                 break;
 
-            case 8:
+            case 7:
                 printf("Saindo do programa.\n");
                 break;
             default:
@@ -59,7 +54,7 @@ int main() {
                 break;
         }
 
-    } while(opcao != 8);
+    } while(opcao != 7);
 
     return 0;
 }
