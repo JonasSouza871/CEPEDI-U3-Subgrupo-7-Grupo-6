@@ -1,3 +1,4 @@
+#include<stdio.h>
 void conversor_min(int n,int opcao){
 float conversor,conversor2;
 printf("digite a forma de como voce quer converter esse numero:\n1-segundos\n2-minutos\n3-horas\n");
