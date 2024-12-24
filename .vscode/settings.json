@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "conversorpotencia.h": "c",
+        "conversorbytes.h": "c"
+    }
+}

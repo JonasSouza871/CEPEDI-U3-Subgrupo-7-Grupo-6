@@ -46,7 +46,7 @@ void conversor_temperaturas(){
         printf("Digite a temperatura correspondente em Fahrenheit: ");
         scanf("%f", &temperatura);
 
-        resultado = (temperatura - 32) * 5 / 9 + 273,15;
+        resultado = (temperatura - 32) * 5 / 9 + 273.15;
 
         printf("\n%.2f Fahrenheit equivalem a %.2f Kelvin.", temperatura, resultado);
         break;
@@ -62,7 +62,7 @@ void conversor_temperaturas(){
         printf("Digite a temperatura correspondente em Kelvin: ");
         scanf("%f", &temperatura);
 
-        resultado = (temperatura * 1.8) - 459,67;
+        resultado = (temperatura * 1.8) - 459.67;
 
         printf("\n%.2f Kelvin equivalem a %.2f Fahrenheit.", temperatura, resultado);
         break;
