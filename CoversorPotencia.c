@@ -87,9 +87,4 @@ printf("Opção Inválida. Por favor, tente novamente. \n");
 
 }
 
-int main() {
 
-    conversor_potencia();
-
-    return 0;
-}

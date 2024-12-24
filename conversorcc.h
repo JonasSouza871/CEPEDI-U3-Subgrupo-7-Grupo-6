@@ -68,7 +68,3 @@
   
 }
 
-int main() {
-    ConverterComprimento();
-    return 0;              
-}

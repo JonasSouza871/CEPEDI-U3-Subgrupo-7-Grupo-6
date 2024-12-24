@@ -58,7 +58,3 @@ void ConverterVolume() {
     }
 }
 
-int main() {
-    ConverterVolume();
-    return 0;
-}

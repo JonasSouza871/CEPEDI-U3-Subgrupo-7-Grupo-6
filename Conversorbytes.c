@@ -67,18 +67,4 @@ void converterBytes(double valor, char unidadeOrigem) {
     printf("Terabytes: %.2lf\n", tb);
 }
 
-int main() {
-    double valor;
-    char unidadeOrigem;
 
-    printf("Conversor de Unidades de Memória\n");
-    printf("Insira o valor a ser convertido: ");
-    scanf("%lf", &valor);
-
-    printf("Insira a unidade de origem (b para bits, B para bytes, K para kilobytes, M para megabytes, G para gigabytes, T para terabytes): ");
-    scanf(" %c", &unidadeOrigem);
-
-    converterBytes(valor, unidadeOrigem);
-
-    return 0;
-}

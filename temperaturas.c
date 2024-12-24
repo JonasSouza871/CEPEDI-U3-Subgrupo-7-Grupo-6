@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <temperaturas.h>
+#include "temperaturas.h"
 
 void conversor_temperaturas(){
     int opcao;

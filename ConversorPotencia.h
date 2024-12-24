@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 void conversor_potencia() {
 
@@ -88,11 +88,6 @@ switch (opcao){
     
 }
 
-int main(){
 
-conversor_potencia();
-return 0;
-
-}
 
    
