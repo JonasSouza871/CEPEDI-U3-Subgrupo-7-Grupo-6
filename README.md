@@ -1,8 +1,5 @@
 # 🔄 Conversor de Unidades Multifunção 
 
-## 📝 Descrição
-![Unit Converter Banner](https://www.embedgooglemap.net/wp-content/uploads/2019/09/calculator.jpg)
-
 Este projeto é um programa em C que oferece múltiplas funcionalidades de conversão de unidades, como temperaturas, volumes, potências, comprimentos, tempos e bits/bytes. Ideal para estudantes, profissionais ou qualquer pessoa que precise de um utilitário rápido e eficiente para conversões.
 
 ## ⭐ Funcionalidades Principais
