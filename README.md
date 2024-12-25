@@ -136,8 +136,8 @@ git push origin minha-feature
 
 ## 📞 Contato
 
-- 👤 **Autor**: Seu Nome
-- 📧 **E-mail**: seuemail@example.com
+- 👤 **Autor**: Brunna Barreto, Cauã Luís Santos, Erick de Sousa, Jonas Souza, Luiz Eduardo e Raiane Damascena 
+ 
+- 📧 **E-mail**: 20241bsifsa0027@ifba.edu.br, caualuis2012@hotmail.com, Erickvestas@gmail.com, Jonassouza871@hotmail.com, luizeduardosoaresferreira942@gmail.com e rai.paixao2012@gmail.com
 
----
-*Feito com ❤️ pela comunidade*
+--- 
