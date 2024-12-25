@@ -11,6 +11,8 @@ void conversor_temperaturas(){
     printf("\n4. Fahrenheit para Kelvin");
     printf("\n5. Kelvin para Celsius");
     printf("\n6. Kelvin para Fahrenheit");
+    printf("\n6. Digite sua opcao: ");
+
 
     scanf("%d", &opcao);
 
